@@ -1,4 +1,16 @@
 aid: lovewithfood
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lovewithfood.png
 name: LoveWithFood
 description: LoveWithFood is a company surfaced as a portfolio company of 500-global and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-site-status:
+  url: https://lovewithfood.com
+  http_status: 410
+  https_tls: broken
+  checked: '2026-07-20'
+  note: Site returns HTTP 410 Gone and TLS handshake fails; company appears defunct.
+    No API surface, developer portal, or well-known documents present.
 tags:
 - Company
 apis: []
@@ -23,3 +42,8 @@ maintainers:
 common:
 - type: Website
   url: https://lovewithfood.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
